@@ -1,46 +1,39 @@
-# Getting Started with Create React App
+# Get Going with Kearnol's Pokedex
+
+
+
+### Clone this repository
+
+Then in the project directory, run:
+
+`yarn` 
+
+to initialize dependencies, 🕓🎡 
+
+And
+
+`yarn start` 
+
+to get off the ground on port 3000 🚀
+
+```
+=================================
+        What's to see?
+=================================
+
+1] A list of 151 pokemon from https://raw.githubusercontent.com/Biuni/PokemonGO-Pokedex/master/pokedex.json
+2] Narrowing Search Functionality 
+- by search string (narrows each letter), 
+- by 'type' (narrows additivly)
+- by 'weakness' (narrows additivly)
+3] Styling via Bootstrap and React-Bootstrap
+4] Detail pages for each pokemon with an image and additional information, such as evolution details
+5] Links to evolutionary related pokemon
+6] React-Router navigation between components
+7] Top-down State sharing based on consideration of needs
+8] Error handling with UI for failed searches
+
+---------------------------------
+```
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `yarn start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
